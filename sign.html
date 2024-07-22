@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Website</title>
+        <link rel="stylesheet" href="Mystyles1.css">
+        <style>
+             body{
+             background-image: url(bacgr2.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-attachment:fixed;
+             height:10px;
+             padding:30px;
+           }
+           table form{
+            font-size:50px;
+           }
+        </style>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home   </a></li>
+                <li><a href="About.html">About   </a></li>
+                <li><a href="Contact.html">Contact   </a></li>
+                <li><a href="Signin.html">Signin   </a></li>
+                <li><a href="Login.html">Login   </a></li>
+            </ul>
+        </nav> 
+        <h2>Signin Form</h2><br>
+        <section>
+        <table>
+        <form action="signinsucessfull.html">
+            Username:<input type="text" name="username"><br><br>
+            Password:<input type="password" name="password"><br><br>
+            Age:<input type="number" name="age"><br><br>
+            Dateofbirth:<input type="date"><br><br>
+            Mobileno:<input type="tel" pattern=[0-9]{10} title="enter 10 digits mobile number"><br><br>
+                Choose E-mail:<input list="email" name="mymails">
+                <datalist id="email">
+                    <option value="sri@gamil.com"></option>
+                    <option value="srilakshmi@gamil.com"></option>
+                    <option value="sri123@gamil.com"></option>
+                    <option value="srik123@gamil.com"></option>
+                </datalist>      
+            <hr>
+            Gender:<br>
+            <input type="radio" name="gender" value="F">Female<br>
+            <input type="radio" name="gender" value="M">Male<br><br>
+            <hr>
+            Select Branch:<br>
+            <select name="branch">
+                <option value="cse-1">CSE-1</option>
+                <option value="cse-1">CSE-2</option>
+                <option value="cse-1">CSE-AIML</option>
+                <option value="cse-1">CSE-DS</option>
+                <option value="cse-1">ECE</option>
+                <option value="cse-1">EEE</option>
+                <option value="cse-1">MECH</option>
+            </select><br><br>
+            <hr>
+            Languages:<br>
+            <input type="checkbox" name="T">TELUGU<br>
+            <input type="checkbox" name="E">ENGLISH<br>
+            <input type="checkbox" name="H">HINDI<br><br>
+            <hr>
+            Address:<br><br>
+            <textarea name="feedback" cols="50" row="50" placeholder="Typehere....."></textarea><br><br>
+            please give ur feedback:<br><br>
+            <textarea name="feedback" cols="50" row="50" placeholder="Typehere....."></textarea><br><br>
+            <center><input type="submit"><br></center>
+        </form>
+        </table>
+    </section>
+        </body>
+    </body>
+    <footer>
+        <center><p>&copy; 2024 MyCompany. All rights reserved.</p></center>
+     </footer>
